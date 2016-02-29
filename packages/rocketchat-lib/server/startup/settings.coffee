@@ -167,7 +167,7 @@ RocketChat.settings.addGroup 'Layout', ->
 
 	@section 'Login', ->
 		@add 'Layout_Login_Header', '<a class="logo" href="/"><img src="/images/logo/logo.svg?v=3" /></a>', { type: 'string', multiline: true, public: true }
-		@add 'Layout_Login_Terms', 'By proceeding to create your account and use JDM-Central, you are agreeing to our <a href="/terms-of-service">Terms of Service</a> and <a href="/privacy-policy">Privacy Policy</a>. If you do not agree, you cannot use JDM_Central.', { type: 'string', multiline: true, public: true }
+		@add 'Layout_Login_Terms', 'By proceeding to create your account and use JDM-Central, you are agreeing to our <a href="/terms-of-service">Terms of Service</a> and <a href="/privacy-policy">Privacy Policy</a>. If you do not agree, you cannot use JDM-Central.', { type: 'string', multiline: true, public: true }
 
 
 RocketChat.settings.addGroup 'Logs', ->
