@@ -106,8 +106,8 @@ RocketChat.settings.addGroup 'SMTP', ->
 	@add 'SMTP_Test_Button', 'sendSMTPTestEmail', { type: 'action', actionText: 'Send_a_test_mail_to_my_user' }
 
 	@section 'Invitation', ->
-		@add 'Invitation_Subject', 'You have been invited to Rocket.Chat', { type: 'string' }
-		@add 'Invitation_HTML', '<h2>You have been invited to <h1>Rocket.Chat</h1></h2><p>Go to ' + __meteor_runtime_config__?.ROOT_URL + ' and try the best open source chat solution available today!</p>', { type: 'string', multiline: true }
+		@add 'Invitation_Subject', 'You have been invited to JDM-Central', { type: 'string' }
+		@add 'Invitation_HTML', '<h2>You have been invited to <h1>JDM-Central</h1></h2><p>Go to ' + __meteor_runtime_config__?.ROOT_URL + ' and try the best open source chat solution available today!</p>', { type: 'string', multiline: true }
 		@add 'Accounts_Enrollment_Email',  '', { type: 'string', multiline: true }
 
 
@@ -157,17 +157,17 @@ RocketChat.settings.addGroup 'Push', ->
 
 
 RocketChat.settings.addGroup 'Layout', ->
-	@add 'Layout_Sidenav_Footer', '<div><a href="https://github.com/RocketChat/Rocket.Chat" class="logo" target="_blank"> <img src="/images/logo/logo.svg?v=3" /></a><div class="github-tagline"><span class="octicon octicon-pencil" style="color: #994C00"></span> with <span class="octicon octicon-heart" style="color: red"></span> on <span class="octicon octicon-mark-github"></span></div></div>', { type: 'string', public: true, i18nDescription: 'Layout_Sidenav_Footer_description' }
+	@add 'Layout_Sidenav_Footer', '<div><a href="https://github.com/shmiko/Rocket.Chat" class="logo" target="_blank"> <img src="/images/logo/logo.svg?v=3" /></a><div class="github-tagline"><span class="octicon octicon-pencil" style="color: #994C00"></span> with <span class="octicon octicon-heart" style="color: red"></span> on <span class="octicon octicon-mark-github"></span></div></div>', { type: 'string', public: true, i18nDescription: 'Layout_Sidenav_Footer_description' }
 
 	@section 'Content', ->
 		@add 'Layout_Home_Title', 'Home', { type: 'string', public: true }
-		@add 'Layout_Home_Body', 'Welcome to Rocket.Chat <br> Go to APP SETTINGS -> Layout to customize this intro.', { type: 'string', multiline: true, public: true }
+		@add 'Layout_Home_Body', 'Welcome to JDM-Central <br> Go to APP SETTINGS -> Layout to customize this intro.', { type: 'string', multiline: true, public: true }
 		@add 'Layout_Terms_of_Service', 'Terms of Service <br> Go to APP SETTINGS -> Layout to customize this page.', { type: 'string', multiline: true, public: true }
 		@add 'Layout_Privacy_Policy', 'Privacy Policy <br> Go to APP SETTINGS -> Layout to customize this page.', { type: 'string', multiline: true, public: true }
 
 	@section 'Login', ->
 		@add 'Layout_Login_Header', '<a class="logo" href="/"><img src="/images/logo/logo.svg?v=3" /></a>', { type: 'string', multiline: true, public: true }
-		@add 'Layout_Login_Terms', 'By proceeding to create your account and use Rocket.Chat, you are agreeing to our <a href="/terms-of-service">Terms of Service</a> and <a href="/privacy-policy">Privacy Policy</a>. If you do not agree, you cannot use Rocket.Chat.', { type: 'string', multiline: true, public: true }
+		@add 'Layout_Login_Terms', 'By proceeding to create your account and use JDM-Central, you are agreeing to our <a href="/terms-of-service">Terms of Service</a> and <a href="/privacy-policy">Privacy Policy</a>. If you do not agree, you cannot use JDM_Central.', { type: 'string', multiline: true, public: true }
 
 
 RocketChat.settings.addGroup 'Logs', ->
