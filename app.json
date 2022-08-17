@@ -12,8 +12,4 @@
       "required": true
     }
   },
-  "addons": [
-    "mongolab",
-    "logentries"
-  ]
-}
+  
